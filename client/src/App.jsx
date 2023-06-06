@@ -11,6 +11,7 @@ import {
 import RootLayout from "./RootLayout";
 import TestPage from "./2_Pages/01_TestPage";
 import AboutUs from "./2_Pages/02_AboutUs";
+import BlogLanding from "./2_Pages/03_BlogLanding";
 
 // -- roots
 
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<RootLayout />}>
       {/* <Route path="/" element={<TestPage />} /> */}
       <Route path="/about" element={<AboutUs />} />
+      <Route path="/blog" element={<BlogLanding />} />
     </Route>
   )
 );

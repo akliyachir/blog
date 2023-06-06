@@ -6,7 +6,7 @@ export const MenuItemsMain = [
     MenuItemsMain_id: 1,
     MenuItemsMain_title: "Blog",
     MenuItemsMain_logo: <FaFeatherAlt />,
-    MenuItemsMain_link: "/",
+    MenuItemsMain_link: "/blog",
   },
   {
     MenuItemsMain_id: 2,
