@@ -4,3 +4,7 @@
  gap: 1.5rem;
  margin-inline:1rem
 }
+
+.AboutUs>*{
+ line-height: 1.6;
+}

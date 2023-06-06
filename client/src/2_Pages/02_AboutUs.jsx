@@ -1,29 +1,26 @@
 import "./02_AboutUs.css";
 import SocialCluster from "../1_Navigation/2_SideBarMainMenu/1_SocialCluster/SocialCluster";
-import {
-  FaLinkedin,
-  FaRegSmile,
-  FaSmileBeam,
-  FaSmileWink,
-  FaStumbleuponCircle,
-} from "react-icons/fa";
+import { FaRegSmile } from "react-icons/fa";
 
 export default function AboutUs() {
   return (
     <div className="AboutUs">
       <h1>Qui Sommes-nous ?</h1>
-      <p>Nous, c’est moi ! votre fidèle serviteur.</p>
+      <p>Nous, c’est moi ! </p>
       <p>
-        Fatigué de mourir d’un trop long supplice, j’entame la construction de
-        cette plateforme, pour mettre en avant mes talents de programmeur web et
-        de rédacteur.
+        Fatigué de poiroter à longueur de jour sur internet, à la recherche d’un
+        job décent, j’entame la construction de cette plateforme, pour mettre en
+        avant mes talents de programmeur et de rédacteur généraliste. Les deux
+        disciplines me passionnent énormément. Et aussi, parce que j’ai
+        énormément de temps à tuer, vue que travaille déjà… dans un kiosque ! De
+        nuit ! Dans un quartier calme !
       </p>
       <p>
-        Donc, comme si de rien n’était, je copie ci-dessous mon curriculum, en
-        guise de lorum ipsum, le temps de mieux structurer le site et d’y
-        revenir plus tard.
+        Alors, comme si de rien n’était, je copie ci-dessous mon curriculum, en
+        guise de lorum ipsum, le temps de mieux structurer le site et d'y
+        revenir après.
       </p>
-      <p>Tout en bas sont mes coordonnés.</p>
+      <p>Tout en bas se trouvent mes coordonnés.</p>
       <p>Voilà, voilà...</p>
       <h2>EXPERIENCE PROFESSIONNELLE</h2>
       <p>NET DUO SA | BUENOS AIRES | du 02/2023 au 05/2023</p>
