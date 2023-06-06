@@ -11,7 +11,7 @@ export const SocialClusterList = [
     SocialClusterList_id: 2,
     SocialClusterList_name: "github",
     SocialClusterList_logo: <FaGithubSquare />,
-    SocialClusterList_link: "https://github.com/akliyachir",
+    SocialClusterList_link: "https://github.com/akliyachir/blog",
   },
   {
     SocialClusterList_id: 3,
