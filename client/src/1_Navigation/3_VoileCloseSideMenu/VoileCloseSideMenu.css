@@ -1,0 +1,28 @@
+.VoileCloseSideMenuOpen, .VoileCloseSideMenuClosed  {
+ cursor: pointer;
+ z-index: 9;
+ 
+ position: absolute;
+
+
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ 
+ background-color: #00000011;
+}
+
+.VoileCloseSideMenuOpen {
+ transition: 300ms ease-in-out;
+
+}
+
+.VoileCloseSideMenuClosed {
+left: 70%;
+right: 30%;
+
+
+
+ transition: 300ms ease-in-out;
+ }
