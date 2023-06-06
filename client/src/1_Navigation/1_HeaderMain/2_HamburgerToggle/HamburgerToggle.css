@@ -1,4 +1,5 @@
-.HamburgerToggle {
+
+.HamburgerToggleOpen, .HamburgerToggleClosed {
  display: flex;
  flex-direction: column;
  gap: .2rem;
@@ -11,17 +12,16 @@
  transition: 200ms ease-in-out;
 }
 
-.HamburgerToggle:hover{
+.HamburgerToggleOpen:hover, .HamburgerToggleClosed:hover{
  background-color: #eee;
  transition: 200ms ease-in-out;
 }
 
 
-.HamburgerToggle span {
+.HamburgerToggleOpen span, .HamburgerToggleClosed span {
  display: block;
  background-color: #000;
  height: .2rem;
  width: 1.7rem;
  border-radius: .2rem;
 }
-

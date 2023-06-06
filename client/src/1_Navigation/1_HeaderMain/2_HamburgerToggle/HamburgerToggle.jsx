@@ -8,7 +8,9 @@ export default function HamburgerToggle() {
   );
   return (
     <div
-      className="HamburgerToggle"
+      className={
+        isSideMenuOpen ? "HamburgerToggleOpen" : "HamburgerToggleClosed"
+      }
       onClick={() => {
         setIsSideMenuOpen(!isSideMenuOpen);
       }}
