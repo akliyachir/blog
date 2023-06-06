@@ -1,15 +1,5 @@
 import { useContext } from "react";
-import {
-  GiBurningEmbers,
-  GiCastle,
-  GiCastleRuins,
-  GiCaveman,
-  GiElvenCastle,
-  GiModernCity,
-  GiPush,
-  GiSandCastle,
-  GiVoodooDoll,
-} from "react-icons/gi";
+import { GiCaveman } from "react-icons/gi";
 import "./LogoHeaderSite.css";
 
 import { NavLink } from "react-router-dom";
@@ -26,8 +16,6 @@ export default function LogoHeaderSite() {
       <NavLink to={"/"}>
         <p>
           Todo Buenos Aires
-          <GiVoodooDoll />
-          <GiBurningEmbers />
           <GiCaveman />
         </p>
       </NavLink>
