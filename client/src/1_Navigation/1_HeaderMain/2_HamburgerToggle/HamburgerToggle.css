@@ -1,3 +1,25 @@
 .HamburgerToggle {
- background-color: red;
+ display: flex;
+ flex-direction: column;
+ gap: .2rem;
+ height: 1.7rem;
+ width: 2rem;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ transition: 200ms ease-in-out;
+}
+
+.HamburgerToggle:hover{
+ background-color: #ffffff22;
+ transition: 200ms ease-in-out;
+}
+
+
+.HamburgerToggle span {
+ display: block;
+ background-color: #fff;
+ height: .2rem;
+ width: 1.7rem;
+ border-radius: .2rem;
 }
