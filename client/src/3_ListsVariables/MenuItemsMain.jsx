@@ -12,6 +12,6 @@ export const MenuItemsMain = [
     MenuItemsMain_id: 2,
     MenuItemsMain_title: "About",
     MenuItemsMain_logo: <BsPersonVcard />,
-    MenuItemsMain_link: "/",
+    MenuItemsMain_link: "/about",
   },
 ];
