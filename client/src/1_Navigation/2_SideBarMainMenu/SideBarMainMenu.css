@@ -1,5 +1,5 @@
 .SideBarMainMenuClosed, .SideBarMainMenuOpen{
- background-color: bisque;
+ background-color: #fff;
  z-index: 10;
  position: fixed;
  overflow-y: auto;
@@ -17,7 +17,7 @@ translate: 0;
 transition: 300ms ease-in-out;
 }
 .SideBarMainMenuClosed{
- translate: 30%;
+ translate: -110%;
  transition: 300ms ease-in-out;
 }
 
