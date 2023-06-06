@@ -6,6 +6,7 @@ import VoileCloseSideMenu from "./1_Navigation/3_VoileCloseSideMenu/VoileCloseSi
 import FooterMain from "./1_Navigation/4_FooterMain/FooterMain";
 import PageWidthContextProvider from "./Context/PageWidthContext";
 import SideMenuToggleContextProvider from "./Context/SideMenuToggleContext";
+import HauteurAjustementSousHeader from "./4_Components/02_HauteurAjustementSousHeader/HauteurAjustementSousHeader";
 
 export default function RootLayout() {
   return (
@@ -16,6 +17,7 @@ export default function RootLayout() {
           <SideBarMainMenu />
           <VoileCloseSideMenu />
           <main className="MainContentContainerRootLayout">
+            <HauteurAjustementSousHeader />
             <Outlet />
           </main>
           <FooterMain />

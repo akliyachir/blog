@@ -1,9 +1,10 @@
 .HeaderMain {
+ padding-inline: 1rem;
+ padding-block: .2rem;
  position: fixed;
  top: 0;
  width: 100%;
  background-color: #fff;
- padding: 1rem;
  display: flex;
  justify-content: space-between;
  align-items: center;

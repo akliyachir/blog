@@ -1,3 +1,8 @@
-.HauteurAjustementSousHeader {
- background-color: yellow;
+
+.HauteurAjustementSousHeader_level_one {
+ height: 0;
+}
+.HauteurAjustementSousHeader_level_two {
+
+ height: 1.22rem;
 }
