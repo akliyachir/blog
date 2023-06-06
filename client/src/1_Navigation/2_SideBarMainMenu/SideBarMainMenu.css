@@ -1,3 +1,35 @@
-.SideBarMainMenu{
+.SideBarMainMenuClosed, .SideBarMainMenuOpen{
  background-color: bisque;
+ z-index: 10;
+ position: fixed;
+ overflow-y: auto;
+ height: 100%;
+ top: 0;
+ left: 0;
+ width: 14rem;
+ padding-bottom: 2rem;
+ box-shadow: 1px 1px 14px #00000044;
+ padding: .5rem;
+}
+
+.SideBarMainMenuOpen{
+translate: 0;
+transition: 300ms ease-in-out;
+}
+.SideBarMainMenuClosed{
+ translate: 30%;
+ transition: 300ms ease-in-out;
+}
+
+
+.SideBarMainMenuClosed::-webkit-scrollbar,
+.SideBarMainMenuOpen::-webkit-scrollbar {
+ width: .4rem;
+ background-color: #fff;
+}
+
+.SideBarMainMenuClosed::-webkit-scrollbar-thumb,
+.SideBarMainMenuOpen::-webkit-scrollbar-thumb {
+ background-color: #ddd;
+ border-radius: .4rem;
 }
