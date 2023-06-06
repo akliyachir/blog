@@ -12,7 +12,7 @@ export default function HeaderMain() {
   return (
     <div className="HeaderMain">
       <LogoHeaderSite />
-      {PageWidth < 550 ? <HamburgerToggle /> : <MenuHorizontalMain />}
+      {PageWidth < 650 ? <HamburgerToggle /> : <MenuHorizontalMain />}
     </div>
   );
 }

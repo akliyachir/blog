@@ -1,3 +1,30 @@
 .MenuHorizontalMain {
- background-color: yellow;
+}
+
+.MenuHorizontalMainItems {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap:2rem;
+}
+
+.MenuItemsMain_link_hrz {
+ color: #000;
+ text-decoration: none;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.MenuItemsMain_link_hrz:hover {
+ color: #333;
+}
+
+.MenuItemsMain_logo_hrz {
+ font-size: 1.3rem;
+}
+
+.MenuItemsMain_title_hrz{
+  font-size: 1rem;
 }
