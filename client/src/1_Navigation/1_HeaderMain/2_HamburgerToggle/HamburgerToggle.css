@@ -10,11 +10,13 @@
  align-items: center;
  cursor: pointer;
  transition: 200ms ease-in-out;
+ overflow: hidden;
 }
 
 .HamburgerToggleOpen:hover, .HamburgerToggleClosed:hover{
  background-color: #eee;
  transition: 200ms ease-in-out;
+ box-shadow: 0 0 1px #000;
 }
 
 
@@ -24,4 +26,20 @@
  height: .2rem;
  width: 1.7rem;
  border-radius: .2rem;
+ transition: 300ms ease-in-out;
+}
+
+.HamburgerToggleOpen span:first-child {
+ rotate: 45deg;
+ translate: 0 .4rem ;
+ transition: 300ms ease-in-out;
+}
+.HamburgerToggleOpen span:nth-child(2) {
+ translate: 4rem;
+ transition: 300ms ease-in-out;
+}
+.HamburgerToggleOpen span:last-child {
+ rotate: -45deg;
+ translate: 0 -.4rem ;
+ transition: 300ms ease-in-out;
 }
