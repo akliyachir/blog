@@ -28,8 +28,8 @@ export default function MenuItemsSideMenu() {
             }}
           >
             <NavLink to={MenuItemsMain_link} className="MenuItemsMain_link">
-              <div>{MenuItemsMain_logo}</div>
-              <div>{MenuItemsMain_title}</div>
+              <div className="MenuItemsMain_logo">{MenuItemsMain_logo}</div>
+              <div className="MenuItemsMain_title">{MenuItemsMain_title}</div>
             </NavLink>
           </div>
         );
