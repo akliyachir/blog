@@ -33,3 +33,17 @@ transition: 300ms ease-in-out;
  background-color: #ddd;
  border-radius: .4rem;
 }
+
+.CloseButtonSideMenuMain {
+ cursor: pointer; 
+ position: absolute;
+ right: 1rem;
+ top:1.15rem;
+}
+
+.CloseButtonSideMenuMain>*{
+ font-size: 1.5rem;
+}
+.CloseButtonSideMenuMain>*:hover{
+ color: #999;
+}

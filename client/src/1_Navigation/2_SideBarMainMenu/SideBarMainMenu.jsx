@@ -1,5 +1,7 @@
 import "./SideBarMainMenu.css";
 
+import { FaRegWindowClose } from "react-icons/fa";
+
 import { useContext } from "react";
 import { SideMenuToggleContext } from "../../Context/SideMenuToggleContext";
 
@@ -13,10 +15,14 @@ export default function SideBarMainMenu() {
         isSideMenuOpen ? "SideBarMainMenuOpen" : "SideBarMainMenuClosed"
       }
     >
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sed unde
-      beatae, vitae voluptate repellendus nulla cum dolorum, officia in hic
-      quasi autem eum nisi reprehenderit eius provident vero nam? Lorem ipsum
-      dolor sit amet, consectetur adipisicing elit. Rem
+      <div
+        className="CloseButtonSideMenuMain"
+        onClick={() => {
+          setIsSideMenuOpen(!isSideMenuOpen);
+        }}
+      >
+        <FaRegWindowClose />
+      </div>
     </menu>
   );
 }
