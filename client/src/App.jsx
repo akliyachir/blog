@@ -1,20 +1,23 @@
-// -- tools 
-
-import {} from "react-router-dom"
+// -- tools
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
 
 // -- pages
+
 import RootLayout from "./RootLayout";
 
 // -- roots
 
-const rooter = 
+const router = createBrowserRouter(
+  createRoutesFromElements(<Route path="/" element={<RootLayout />}></Route>)
+);
 
-// -- export 
+// -- export
 
 export default function App() {
-  return (
-    <main>
-      <RootLayout />
-    </main>
-  );
+  return <RouterProvider router={router} />;
 }
