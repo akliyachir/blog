@@ -1,0 +1,13 @@
+.SocialCluster {
+  box-shadow: 0 0 1 #00000044;
+  display: flex;
+  gap: 0.8rem;
+  margin-left: .5rem;
+}
+
+
+.SocialCluster .SocialClusterList_logo {
+ color: #000;
+ font-size: 1.5rem;
+}
+

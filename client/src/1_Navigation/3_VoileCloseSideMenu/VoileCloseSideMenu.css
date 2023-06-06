@@ -2,7 +2,7 @@
  cursor: pointer;
  z-index: 9;
  user-select: none;
- position: absolute;
+ position: fixed;
 
 
  top: 0;

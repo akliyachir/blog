@@ -16,7 +16,7 @@ import TestPage from "./2_Pages/01_TestPage";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
-      <Route path="/" element={<TestPage />} />
+      {/* <Route path="/" element={<TestPage />} /> */}
     </Route>
   )
 );
