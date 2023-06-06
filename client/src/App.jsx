@@ -9,11 +9,16 @@ import {
 // -- pages
 
 import RootLayout from "./RootLayout";
+import TestPage from "./2_Pages/01_TestPage";
 
 // -- roots
 
 const router = createBrowserRouter(
-  createRoutesFromElements(<Route path="/" element={<RootLayout />}></Route>)
+  createRoutesFromElements(
+    <Route path="/" element={<RootLayout />}>
+      <Route path="/" element={<TestPage />} />
+    </Route>
+  )
 );
 
 // -- export

@@ -1,7 +1,7 @@
 .VoileCloseSideMenuOpen, .VoileCloseSideMenuClosed  {
  cursor: pointer;
  z-index: 9;
- 
+ user-select: none;
  position: absolute;
 
 
@@ -19,8 +19,8 @@
 }
 
 .VoileCloseSideMenuClosed {
-left: 70%;
-right: 30%;
+left: 75%;
+right: 25%;
 
 
 

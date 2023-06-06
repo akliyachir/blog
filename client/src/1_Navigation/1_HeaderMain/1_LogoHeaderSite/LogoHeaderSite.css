@@ -1,3 +1,10 @@
 .LogoHeaderSite {
  color: #000;
+ cursor: pointer;
+}
+
+
+.LogoHeaderSite a {
+ color: #000;
+ text-decoration: none;
 }
