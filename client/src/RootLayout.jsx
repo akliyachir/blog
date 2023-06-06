@@ -4,7 +4,6 @@ import "./RootLayout.css";
 export default function RootLayout() {
   return (
     <div className="RootLayout">
-      <h1>hola</h1>
       <HeaderMain />
     </div>
   );
